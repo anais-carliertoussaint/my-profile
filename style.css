@@ -1,0 +1,101 @@
+/* Colors and fonts */
+body {
+	background: #EDE8DC;
+	color: rgb(50, 50, 50);
+	font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3 {
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+}
+
+;
+}
+h1 {
+	color: #E7CCCC;
+	font-size: 32px;
+}
+h2 {
+	color: #A5B68D;
+	font-size: 20px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: #E7CCCC;
+}
+a:hover {
+	color: #EDE8DC;
+}
+
+#profil {
+    width: 100px;              /* Ajustez la taille de l'image selon vos besoins */
+    height: 100px;             /* Doit être égal à la largeur pour obtenir un cercle */
+    border-radius: 50%;        /* Crée le contour circulaire */
+    object-fit: cover;         /* Ajuste l'image pour qu'elle remplisse le cadre sans déformation */
+}
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {  
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media (max-width: 500px) {  
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+.card-white {
+	background-color: white;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #E7CCCC;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+
+}
+.btn-blue:hover {
+	background-color: #C1CFA1;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
